@@ -1,0 +1,74 @@
+@CHARSET "ISO-8859-1";
+
+html{
+	position:relative;
+	background:  #f3f5d2;
+}
+
+
+
+.header{
+height: 100px;
+padding-top:20px;
+padding-left:10px;
+padding-right:10px;
+padding-bottom: 30px;
+background:#222 ;
+
+}
+
+.main{
+border: 0px solid  #EAEAEA;
+padding-top: 70px;
+
+}
+
+.main_content{
+padding-right:20px;
+padding-left:20px;
+padding-bottom:20px;
+}
+
+.view_page{
+padding-left:50px;
+padding-bottom:20px;
+font-size: 12px;
+}
+
+.center_page{
+font-size: 14px;
+padding-left:30px;
+}
+
+.info_box_header{
+font-size: 16px;
+padding: 5px;
+}
+
+.content{
+font-size: 12px;
+padding: 5px;
+}
+
+.form_margin{
+margin:5px;
+
+}
+
+.login_form{
+border-style:solid;
+border-width:1px;
+border-color:#222;
+}
+
+.profile_admin{
+padding-right:20px;
+padding-left:40px;
+padding-bottom:20px;
+
+}
+
+.table_multiple{
+padding-left:35px;
+padding-bottom:5px;
+}

@@ -33,10 +33,7 @@ include 'body_style.php';
 		
 		<div class="grid_9 view_page">
 		<div id='taxon_tree' class="" style="overflow:scroll;height:500px">
-			<form id="searchbox" action="">
-			    <input id="search" type="text" placeholder="Type here">
-			    <input id="submit" type="submit" value="Search">
-			</form>
+			
 		<?php 
 		 
 		 include 'taxon_tree.php';

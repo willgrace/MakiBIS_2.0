@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SimpleDarwinRecordSet
+ xmlns="http://rs.tdwg.org/dwc/dwcrecord/"
+ xmlns:dc="http://purl.org/dc/terms/"
+ xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://rs.tdwg.org/dwc/dwcrecord/ ../../xsd/tdwg_dwc_simple.xsd">
+
+<!-- In practice the schema location should be the following. The above was to -->
+<!-- allow the resolution of the namespace in a self contained package with the documentation. -->
+<!--  xsi:schemaLocation="http://rs.tdwg.org/dwc/dwcrecord/ http://rs.tdwg.org/dwc/xsd/tdwg_dwc_simple.xsd"> -->
+</SimpleDarwinRecordSet>

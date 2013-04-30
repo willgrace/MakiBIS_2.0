@@ -1,0 +1,62 @@
+Jan 26, 2013
+
+-created:
+
+sql_insert.sql
+
+-updated: 
+
+(controller)
+user.php 
+	line 232-244
+
+(model)
+user_model.php
+	line 247-255
+
+
+(views)
+body_stype.php 
+	line 24-31
+species_profile.php 
+	line 9
+
+
+Feb 16
+
+* Creating an upload function in the edit profile of the species
+
+updating
+	edit_profile
+	v_edit_profile
+	species_profile
+	user
+	user_model
+
+	dummy files
+	upload_form v
+	upload_success v
+	upload c
+	upload_file v
+
+	ERROR: The upload path does not appear to be valid.
+
+Feb 20
+
+	RESOLVED: 
+	instead of this line $this->load->library('upload', $config);
+	i changed it with $this->upload->initialize($config); since i was autoloading the library
+
+	BUG: 
+	1.image extension is still hard coded, still not able to alter the image extension (name is altered with the prescribed format)
+	2.image not having the same file extension is not ovewritten
+
+	FUNCTION CREATED:
+		do_upload (c)
+		update_image (m)
+
+	RESOLVED
+	1. see else part of do_upload
+
+
+	DOCUMENT WELL
